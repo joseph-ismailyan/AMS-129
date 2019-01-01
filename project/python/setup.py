@@ -65,14 +65,14 @@ def main():
 
 	# names of files to iterate through
 	file_path = ["./output_8.txt", 
-			     "./output_16.txt",
-				 "./output_32.txt",
-				 "./output_64.txt"]
+		     "./output_16.txt",
+		     "./output_32.txt",
+		     "./output_64.txt"]
 
 	output_files = ["result_8.png",
-					"result_16.png",
-					"result_32.png",
-					"result_64.png"]
+			"result_16.png",
+			"result_32.png",
+			"result_64.png"]
 
 	num_nodes = [8, 16, 32, 64]
 
