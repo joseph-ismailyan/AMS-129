@@ -51,7 +51,7 @@ module euler
 
             do i = 0, N-1
                 running_t = (i*delta_t)
-                write (1,*) running_t
+                write(1,*) running_t
                 write(1,*) running_y
                 running_y = (dydt(running_t, running_y) * delta_t) + running_y
             end do
