@@ -1,0 +1,1 @@
+gfortran gauss.F90 -o gauss
